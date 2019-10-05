@@ -25,7 +25,7 @@ function enableVideo() {
 // kickstart the video call.
 function loadSimpleWebRTC() {
   var script = document.createElement("script");
-  script.src = "https://raw.githubusercontent.com/simplewebrtc/SimpleWebRTC/master/out/simplewebrtc.bundle.js";
+  script.src = "https://webrtc.github.io/adapter/adapter-latest.js";
   document.head.appendChild(script);
 
   script.onload = function() {
